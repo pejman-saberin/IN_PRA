@@ -1,5 +1,7 @@
-package animal;
-
+package OOP.animal;
+/*
+ * https://www.youtube.com/watch?v=wlA66hZ4Z74 --> example of Animal .. I couldn't fidn the video I used to make this
+ */
 import java.lang.reflect.Array;
 import java.util.Scanner;
 

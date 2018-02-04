@@ -1,4 +1,4 @@
-package animal;
+package OOP.animal;
 
 public class Dog extends Animal{
 	
