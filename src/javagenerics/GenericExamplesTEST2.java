@@ -11,18 +11,19 @@ import  org.junit.Test;
 
 
 
-public class GenericExamplesTEST {
+public class GenericExamplesTEST2 {
 	
 	 
 	@Test
 	public  void   betterForCasting(){
-		ArrayList <String> list=new ArrayList <String>();
+		ArrayList <String> list=new ArrayList ();  //even adding <String> is making it generic, same as ArrayList <String> list=new ArrayList <String> (); 
 		Map<Integer,ArrayList <String>> aMap=new HashMap<>();
 		
 		list.add("a string");
 		list.add("another string");
 		
 		String s=(String) list.get(0);	
+		String p=list.get(0);
 	}
 	
 	@Test
