@@ -2,10 +2,16 @@ package DATA_STRUCTURES;
 
 public class binaryEqulastohexadecimal  {
 	
+	class node{
+		
+	}
+	
 	public static void main (String [] args){
 		//binaryEqulastohexadecimal pejman=new binaryEqulastohexadecimal();
 		//System.out.println(pejman.compareBinToHex("4","4"));
 		System.out.println(38&23);
+		binaryEqulastohexadecimal p=new binaryEqulastohexadecimal();
+		 
 	}
 	
 	 

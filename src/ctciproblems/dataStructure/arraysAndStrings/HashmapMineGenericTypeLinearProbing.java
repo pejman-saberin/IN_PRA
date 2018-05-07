@@ -12,7 +12,7 @@ import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;
 //public class HashmapMineGenericType <T> { 
-public class HashmapMineGenericType { 
+public class HashmapMineGenericTypeLinearProbing { 
 
 	private int  size;
 	//private T [] hashmapArray;
@@ -30,7 +30,7 @@ public class HashmapMineGenericType {
 		int userinputsize= reader.nextInt(); // Scans the next token of the input as an int.
 		HashmapMineGenericType p=new HashmapMineGenericType(userinputsize);	*/	
 
-		HashmapMineGenericType test= new HashmapMineGenericType (60, 1);
+		HashmapMineGenericTypeLinearProbing test= new HashmapMineGenericTypeLinearProbing (60, 1);
 		/*test.insert(5);
 		test.insert(5);
 		test.insert(4);
@@ -45,7 +45,7 @@ public class HashmapMineGenericType {
 
 	}
 	//two constrcutors one for userinput and also one for regukar	
-	HashmapMineGenericType (int size, int  iData){
+	HashmapMineGenericTypeLinearProbing (int size, int  iData){
 		this.size=size; //size of the hashmap, can not be changed
 		this.iData=iData; //the data that goes into hashmap
 		this.hashmapArray= new Integer [size]; //assuming that we are dealing with int size
@@ -55,7 +55,7 @@ public class HashmapMineGenericType {
 	}	
 
 	//constructor for user input
-	HashmapMineGenericType (int userinputsize){
+	HashmapMineGenericTypeLinearProbing (int userinputsize){
 		this.size=size;		
 		//List<T> hashmapArray= new ArrayList<T>(this.size); //initilizing an arraylist with generic type	
 		int []hashmapArray = new int [this.size];		

@@ -5,7 +5,7 @@ package OOP.animal;
 import java.lang.reflect.Array;
 import java.util.Scanner;
 
-public class Animal {
+public  class Animal {
 	
 	public static final double FAVNUMBER=1.6180;	
 	private String name;
@@ -17,6 +17,7 @@ public class Animal {
 	public char getFavoriteColor() {
 		return favoriteColor;
 	}
+	 
 
 	public void setFavoriteColor(char favoriteColor) {
 		this.favoriteColor = favoriteColor;
@@ -117,7 +118,7 @@ public class Animal {
 		return userInput;
 	}
 
-	public void setUserInput(Scanner userInput) {
+	public  void setUserInput(Scanner userInput) {
 		this.userInput = userInput;
 	}
 	public void setUniqueID() {
@@ -162,7 +163,10 @@ public class Animal {
 		 
 		Animal rr = new Dog();
 		Animal P=new Animal();
-		 
+		Animal oo=new Human();
+		
+		System.out.println("Human Says "+oo.makeSound());
+				
 		P.speakAnimal(rr) ;
 		 int [] p=new int[10];
 		 String [] pe= {"e","er"};
